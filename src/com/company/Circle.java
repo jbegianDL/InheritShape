@@ -8,6 +8,11 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
+    public double getArea(){
+        double area = Math.PI * (Math.pow(radius,2));
+
+    }
+
     public double getRadius() {
         return radius;
     }
